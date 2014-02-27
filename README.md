@@ -15,7 +15,7 @@ import (
     "fmt"
     "net/http"
 
-    "github.com/andreadipersio/goauth-dropbox"
+    "github.com/andreadipersio/goauth-dropbox/dropbox"
 )
 
 func main() {
