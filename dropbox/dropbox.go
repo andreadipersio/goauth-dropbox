@@ -27,6 +27,7 @@ type Token struct {
     // API call to Dropbox CORE API.
     // https://www.dropbox.com/developers/core/docs
     Token string `json:"access_token"`
+	Error *string `json:"error"`
 }
 
 type OAuth2Handler struct {
